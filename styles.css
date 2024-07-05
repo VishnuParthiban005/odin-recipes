@@ -1,5 +1,6 @@
 * {
     font-family: 'Brush Script MT', 'Trebuchet MS', 'Tahoma', sans-serif;
+    box-sizing: border-box;
 }
 
 * {
@@ -17,23 +18,28 @@ h1, h2 {
     color: rgb(255, 201, 52);
     background-color:darkred;
     text-align: center;
+    border: 5px solid rgb(255, 201, 52);
 }
 
 h1 {
     font-size: 48px;
     padding: 8px;
-    border: 5px solid rgb(255, 201, 52);
 }
 
 h2 {
     font-size: 34px;
     padding: 4px;
-    border: 2px solid rgb(255, 201, 52);
+    border-width: 2px;
 }
 
 li, a, p {
     font-size: 28px;
     color:rgb(0, 0, 0);
+}
+
+img {
+    width: 400px;
+    border:7px ridge rgb(255, 201, 52);;
 }
 
 .container {
@@ -45,9 +51,21 @@ li, a, p {
     text-align: left;
 }
 
+.description {
+    display: inline-block;
+    text-align: center;
+    width:60%;
+    padding: 40px;
+}
+
+.description p {
+    margin: 8px 16px;
+}
 .center-img {
     display: inline-block;
-    width: 400px;
-    margin: 0 auto;
-    height:auto;
+    width:39%;
+    vertical-align:top;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
