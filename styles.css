@@ -18,7 +18,8 @@ h1, h2 {
     color: rgb(255, 201, 52);
     background-color:darkred;
     text-align: center;
-    border: 5px solid rgb(255, 201, 52);
+    text-shadow: 2px 2px 2px black;
+    border: 5px outset rgb(255, 201, 52);
 }
 
 h1 {
@@ -35,6 +36,8 @@ h2 {
 li, a, p {
     font-size: 28px;
     color:rgb(0, 0, 0);
+    text-rendering:geometricPrecision;
+    font-weight: 500;
 }
 
 img {
